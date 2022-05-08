@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FoodApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/app_actionbar.xml" value="0.33" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/category_card.xml" value="0.1431159420289855" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/fragment_category.xml" value="0.18645833333333334" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/fragment_category_details.xml" value="0.1" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/fragment_favorits.xml" value="0.1431159420289855" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/fragment_home.xml" value="0.16" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/fragment_home_category.xml" value="0.25" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/fragment_meal_details.xml" value="0.1927710843373494" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/fragment_popular_items.xml" value="0.12" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/fragment_searchragment.xml" value="0.1" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/meal_card.xml" value="0.1" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/most_popular_card.xml" value="0.1" />
+        <entry key="..\:/FoodApp/app/src/main/res/layout/search_item.xml" value="0.1111111111111111" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/drawable/ic_baseline_search.xml" value="0.1" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/font/myfont.xml" value="0.1" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/layout/app_actionbar.xml" value="0.22" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/layout/category_card.xml" value="0.1" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/layout/fragment_category.xml" value="0.1" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/layout/fragment_category_details.xml" value="0.1" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/layout/fragment_favorits.xml" value="0.1" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/layout/fragment_home.xml" value="0.15" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/layout/fragment_meal_details.xml" value="0.18" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/layout/fragment_splash.xml" value="0.1" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/layout/most_popular_card.xml" value="0.1" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/layout/search_view_layout.xml" value="0.1" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/menu/menu_item.xml" value="0.1" />
+        <entry key="..\:/ProjectsKotlin/FoodApp/app/src/main/res/menu/search_item.xml" value="0.18645833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

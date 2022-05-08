@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homefragment"
+            android:icon="@drawable/home_foreground"
+            android:title="Home"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/favoritsFragment"
+            android:icon="@drawable/favorit_foreground"
+            android:title="Favorite"
+            app:showAsAction="always"
+            />
+        <item
+            android:id="@+id/categoryFragment"
+            android:icon="@drawable/category_foreground"
+            android:title="Category"
+            app:showAsAction="always"
+
+            />
+    </group>
+</menu>

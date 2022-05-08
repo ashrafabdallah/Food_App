@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/naph_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.foodapp.presention.fragment.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_homefragment"
+            app:destination="@id/homefragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritsFragment"
+        android:name="com.example.foodapp.presention.fragment.FavoritsFragment"
+        android:label="fragment_favorits"
+        tools:layout="@layout/fragment_favorits">
+        <action
+            android:id="@+id/action_favoritsFragment_to_mealDetailsFragment"
+            app:destination="@id/mealDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.foodapp.presention.fragment.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category">
+        <action
+            android:id="@+id/action_categoryFragment_to_categoryDetailsFragment"
+            app:destination="@id/categoryDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mealDetailsFragment"
+        android:name="com.example.foodapp.presention.fragment.MealDetailsFragment"
+        android:label="fragment_meal_details"
+        tools:layout="@layout/fragment_meal_details">
+        <argument
+            android:defaultValue="@null"
+            app:nullable="true"
+            android:name="selected_Item"
+
+            app:argType="com.example.foodapp.data.model.MealDetail"
+           />
+        <argument
+            android:name="meal_name"
+            android:defaultValue="@null"
+            app:nullable="true"
+            app:argType="string" />
+        <argument
+            android:defaultValue="@null"
+            app:nullable="true"
+            android:name="search_selected_item"
+            app:argType="com.example.foodapp.data.model.MealDetail" />
+        <argument
+            android:defaultValue="@null"
+            app:nullable="true"
+            android:name="favorit_item"
+            app:argType="com.example.foodapp.data.model.MealDB" />
+        <argument
+            android:defaultValue="@null"
+            app:nullable="true"
+            android:name="Category_item_Selected"
+            app:argType="com.example.foodapp.data.model.MealDetail" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/categoryDetailsFragment"
+        android:name="com.example.foodapp.presention.fragment.CategoryDetailsFragment"
+        android:label="fragment_category_details"
+        tools:layout="@layout/fragment_category_details">
+        <action
+            android:id="@+id/action_categoryDetailsFragment_to_mealDetailsFragment"
+            app:destination="@id/mealDetailsFragment" />
+        <argument
+            android:name="selected_item_category"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.example.foodapp.presention.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homefragment_to_mealDetailsFragment"
+            app:destination="@id/mealDetailsFragment" />
+        <action
+            android:id="@+id/action_homefragment_to_categoryDetailsFragment"
+            app:destination="@id/categoryDetailsFragment" />
+        <action
+            android:id="@+id/action_homefragment_to_popularItemsFragment"
+            app:destination="@id/popularItemsFragment" />
+        <action
+            android:id="@+id/action_homefragment_to_homeCategoryFragment"
+            app:destination="@id/homeCategoryFragment" />
+        <action
+            android:id="@+id/action_homefragment_to_searchragment"
+            app:destination="@id/searchragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/popularItemsFragment"
+        android:name="com.example.foodapp.presention.fragment.PopularItemsFragment"
+        android:label="fragment_popular_items"
+        tools:layout="@layout/fragment_popular_items">
+        <argument
+            android:name="selectedPopular_Item"
+            app:argType="com.example.foodapp.data.model.Meal" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeCategoryFragment"
+        android:name="com.example.foodapp.presention.fragment.HomeCategoryFragment"
+        android:label="fragment_home_category"
+        tools:layout="@layout/fragment_home_category">
+        <argument
+            android:name="selectedCategory_Item"
+            app:argType="com.example.foodapp.data.model.Category" />
+        <action
+            android:id="@+id/action_homeCategoryFragment_to_mealDetailsFragment"
+            app:destination="@id/mealDetailsFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/searchragment"
+        android:name="com.example.foodapp.presention.fragment.Searchragment"
+        android:label="fragment_searchragment"
+        tools:layout="@layout/fragment_searchragment" >
+        <argument
+            android:name="querySearch"
+            app:argType="string" />
+    </fragment>
+</navigation>
